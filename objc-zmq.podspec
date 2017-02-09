@@ -3,14 +3,14 @@ Pod::Spec.new do |s|
   s.version      = "4.2.1"
   s.summary      = "Objective-C binding for ZeroMQ"
   s.description  = <<-DESC
-    Bundled with ZeroMQ 4.1.4 library.
+    Bundled with ZeroMQ 4.2.1 library.
 
     This is an Objective-C version of the reference ZeroMQ object-oriented C API. It follows the guidelines laid out by the official "Guidelines for ZeroMQ bindings".
     DESC
-  s.homepage     = "https://github.com/candeias/objc-zmq"
+  s.homepage     = "https://github.com/EduardoMartinezCatala/objc-zmq"
   s.license      = 'MIT'
-  s.author       = { "Rogerio Candeias" => "rogerio.candeias@gmail.com" }
-  s.source       = { :git => "https://github.com/candeias/objc-zmq.git", :tag => s.version.to_s }
+  s.author       = { "Rogerio Candeias" => "Eduardo.Martinez.Catala@gmail.com" }
+  s.source       = { :git => "https://github.com/EduardoMartinezCatala/objc-zmq.git", :tag => s.version.to_s }
   s.platform     = :osx, '10.6'
   s.osx.deployment_target = '10.6'
   s.requires_arc = true
