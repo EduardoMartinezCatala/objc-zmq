@@ -16,7 +16,7 @@ typedef int ZMQMessageReceiveFlags;
 + (NSString *)nameForSocketType:(ZMQSocketType)type;
 
 // Create a socket using -[ZMQContext socketWithType:].
-@property(atomic, readonly, weak) ZMQContext *context;
+@property(atomic, readonly, unsafe_unretained) ZMQContext *context;
 @property(atomic, readonly, assign) ZMQSocketType type;
 
 @property(readonly) void *socket;

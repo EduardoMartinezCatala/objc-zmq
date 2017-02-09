@@ -12,7 +12,7 @@ enum {
 @interface ZMQSocket ()
 
 @property(readwrite, getter=isClosed, atomic) BOOL closed;
-@property(atomic, weak) ZMQContext *context;
+@property(atomic, unsafe_unretained) ZMQContext *context;
 @property(atomic, assign) ZMQSocketType type;
 @property(atomic, assign) void *socket;
 

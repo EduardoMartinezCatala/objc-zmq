@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0FB221742CC3A2B02921FE6CE726C17CDCA934DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FB221742CC3A2B02921FE6CE726C17CDCA934DE" : 0,
+    "C8A952AD-61A6-4532-BD54-42C0D3FD5719" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1CE6541F-C792-46E2-8A65-E0B90DA4CF3F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FB221742CC3A2B02921FE6CE726C17CDCA934DE" : "objc-zmq\/",
+    "C8A952AD-61A6-4532-BD54-42C0D3FD5719" : "opcoders_objc-zmq"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZeroMQ",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Project\/ZeroMQ.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EduardoMartinezCatala\/objc-zmq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FB221742CC3A2B02921FE6CE726C17CDCA934DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/neoneye\/objc-zmq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8A952AD-61A6-4532-BD54-42C0D3FD5719"
+    }
+  ]
+}
