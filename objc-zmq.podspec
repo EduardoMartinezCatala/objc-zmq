@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     DESC
   s.homepage     = "https://github.com/EduardoMartinezCatala/objc-zmq"
   s.license      = 'MIT'
-  s.author       = { "Rogerio Candeias" => "Eduardo.Martinez.Catala@gmail.com" }
+  s.author       = { "Eduardo Martinez" => "Eduardo.Martinez.Catala@gmail.com" }
   s.source       = { :git => "https://github.com/EduardoMartinezCatala/objc-zmq.git", :tag => s.version.to_s }
   s.platform     = :osx, '10.6'
   s.osx.deployment_target = '10.6'
