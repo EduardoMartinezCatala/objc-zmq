@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "objc-zmq"
-  s.version      = "4.2.1"
+  s.version      = "4.1.1"
   s.summary      = "Objective-C binding for ZeroMQ"
   s.description  = <<-DESC
     Bundled with ZeroMQ 4.2.1 library.
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Classes/cppzmq/*.hpp', 'Classes/objc-zmq/*.{h,m}', 'Classes/zeromq/*.h'
   s.public_header_files = 'Classes/**/*.{h,hpp}'
-  s.vendored_libraries = 'Library/zeromq-4.2.1/static/libzmq.a'
+  s.vendored_libraries = 'Library/zeromq-4.1.1/static/libzmq.a'
   s.libraries = 'c++'
 end
